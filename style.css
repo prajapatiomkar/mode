@@ -1,0 +1,27 @@
+
+
+.heading{
+    font-size: 50px;
+    color: #121212;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btns{
+    text-align: center;
+}
+
+.btn{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+#b1{
+    color: #121212; 
+    background-color: white;
+}
+#b2{
+    color: white; 
+    background-color: #121212;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <script>
+        function mode(n){
+            if(n==0){
+                // light
+                document.getElementById("body").style.backgroundColor = "white";
+                document.getElementById("heading").style.color = "#121212";
+                document.getElementById("b2").style.backgroundColor = "#121212"
+                document.getElementById("b2").style.color = "white";
+            }else{
+                // Dark
+                document.getElementById("body").style.backgroundColor = "#121212";
+                document.getElementById("heading").style.color = "white";
+                document.getElementById("b1").style.backgroundColor = "white";
+                document.getElementById("b1").style.color = "#121212";
+            }
+        }
+    </script>
+
+
+
+    <p id="heading" class="heading">
+        Light mode and Dark mode
+    </p>
+    <br>
+    <br>
+
+    <p class="btns">
+
+        <span onclick="mode(1)" class="btn" id="b1">Dark</span><span onclick="mode(0)" class="btn" id="b2">Light</span>
+        
+
+    </p>
+    
+</body>
+</html>
